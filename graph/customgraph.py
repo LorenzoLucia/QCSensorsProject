@@ -1,6 +1,9 @@
 from enum import Enum
 from math import sqrt
 
+import networkx as nx
+from matplotlib import pyplot as plt
+from matplotlib.lines import Line2D
 from networkx import Graph
 
 
@@ -10,6 +13,14 @@ class NodeType(Enum):
 
 
 class CustomGraph(Graph):
+    """
+    Creates a graph with n_columns and a different number of rows for the sensors and the street points
+
+    It can be improved to create better graph
+    """
+
+    # TODO: magari mettere che si vedono gli street point non coperti da sensori quando si plotta il grafo
+
     def __init__(self,
                  n_columns: int = 1,
                  n_street_rows: int = 1,
@@ -35,7 +46,7 @@ class CustomGraph(Graph):
 
         for i in range(self.n_columns):
             for j in range(self.n_street_rows):
-                node_index = j * n_columns + i
+                node_index = self.n_columns * self.n_sensor_rows + j * n_columns + i
                 self.add_node(node_index)
                 self.__colors.append(street_point_color)
                 self.__nodes_dict[node_index] = {
@@ -46,19 +57,21 @@ class CustomGraph(Graph):
 
         for i in range(self.n_columns):
             for j in range(self.n_sensor_rows):
-                node_index = self.n_columns * self.n_street_rows + j * self.n_columns + i
+                node_index = j * self.n_columns + i
                 self.add_node(node_index)
                 self.__colors.append(sensor_color)
                 self.__nodes_dict[node_index] = {
                     "type": NodeType.SENSOR,
                     "x": i,
                     "y": j + 0.5,
-                    "visible_street_points": []
+                    "visible_street_points": [],
+                    # Index used in the QUBO matrix, it is the index of the variable in the X vector
+                    "qubo_index": j * self.n_columns + i
                 }
 
                 for m in range(self.n_columns):
                     for n in range(self.n_street_rows):
-                        street_point_index = n * self.n_columns + m
+                        street_point_index = self.n_columns * self.n_sensor_rows + n * self.n_columns + m
                         if self.__is_street_point_visible(self.__nodes_dict[node_index],
                                                           self.__nodes_dict[street_point_index]):
                             print("Adding edge")
@@ -72,8 +85,43 @@ class CustomGraph(Graph):
             (sensor["x"] - street_point["x"]) ** 2 + (sensor["y"] - street_point["y"]) ** 2
         )
 
-    def get_positions(self):
+    def __get_positions(self):
+        """
+        :return: dictionary with as key the index of the node and as value an array with the x and y coordinate of the
+        node
+        """
         return dict(map(lambda item: (item[0], [item[1]["x"], item[1]["y"]]), self.__nodes_dict.items()))
 
-    def get_colors(self):
+    def __get_colors(self):
         return self.__colors
+
+    def get_data_for_qubo(self):
+        n_sensors = self.n_sensor_rows * self.n_columns
+        n_street_points = self.n_street_rows * self.n_columns
+        edges = []
+        for i in self.__nodes_dict.keys():
+            if self.__nodes_dict[i]["type"] == NodeType.SENSOR:
+                for j in self.__nodes_dict[i]["visible_street_points"]:
+                    edges.append({i, j})
+        return n_sensors, n_street_points, edges
+
+    def add_active_sensors(self, active_sensors: list[int]):
+        for i in active_sensors:
+            self.__colors[i] = self.active_sensor_color
+
+    def plot(self):
+        nx.draw(self,
+                node_color=self.__get_colors(),
+                pos=self.__get_positions())
+        legend_elements = [
+            Line2D([0], [0], marker='o', color='w', label='Street point to cover', markerfacecolor='blue',
+                   markersize=10),
+            Line2D([0], [0], marker='o', color='w', label='Possible sensor positions', markerfacecolor='green',
+                   markersize=10),
+            Line2D([0], [0], marker='o', color='w', label='Active sensors', markerfacecolor='red', markersize=10),
+        ]
+
+        # Add the legend to the plot
+        plt.legend(handles=legend_elements, loc='upper right')
+
+        plt.show()
