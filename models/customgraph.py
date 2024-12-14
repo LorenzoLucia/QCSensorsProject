@@ -95,7 +95,7 @@ class CustomGraph(Graph):
         edges = []
         for i in self.__nodes_dict.keys():
             if self.__nodes_dict[i].node_type == NodeType.SENSOR:
-                for j in self.__nodes_dict[i].__visible_street_points:
+                for j in self.__nodes_dict[i].visible_street_points:
                     edges.append({i, j["street_point"]})
         return n_sensors, n_street_points, edges
 
@@ -114,7 +114,7 @@ class CustomGraph(Graph):
             node = self.__nodes_dict[i]
             if node.node_type == NodeType.SENSOR:
 
-                for j in node.__visible_street_points:
+                for j in node.visible_street_points:
                     edges.append((i, j["street_point"]))
 
                 if node.active:

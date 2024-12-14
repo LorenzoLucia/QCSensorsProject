@@ -37,7 +37,7 @@ class SensorNode:
         self.node_type = NodeType.SENSOR
         if visible_street_points is None:
             visible_street_points = []
-        self.__visible_street_points: list[dict] = visible_street_points
+        self.visible_street_points: list[dict] = visible_street_points
         self.active = active
 
     def __calc_distance(self, x, y):
@@ -46,7 +46,7 @@ class SensorNode:
         )
 
     def add_visible_street_point(self, index: int, x: float, y: float):
-        self.__visible_street_points.append(
+        self.visible_street_points.append(
             {
                 "street_point": index,
                 "weight": self.__calc_distance(x, y),
