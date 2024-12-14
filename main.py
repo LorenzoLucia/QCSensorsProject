@@ -1,6 +1,6 @@
 from qubovert.sim import anneal_qubo
 
-from graph.customgraph import CustomGraph
+from models.customgraph import CustomGraph
 from qubo.qubo import Qubo
 
 
@@ -8,7 +8,7 @@ def main():
     graph = CustomGraph(
         n_columns=4,
         n_sensor_rows=2,
-        n_street_rows=4,
+        n_street_points_rows=4,
         max_sensors_radius=2,
     )
 
@@ -27,8 +27,6 @@ def main():
         if solution.best.state[i] == 1 and i < n_sensors:
             active_sensors.append(i)
 
-    print(graph.get_positions())
-    print(graph.get_colors())
 
     graph.add_active_sensors(active_sensors)
 
