@@ -1,5 +1,22 @@
 # QCSensorsProject
 
+### Setup
+
+Create and start the virtual environment
+
+`python3 -m venv venv`
+`source venv/bin/activate`
+
+Install the dependencies
+
+`pip install -r requirements.txt`
+
+### Developement
+
+If you add any dependency
+
+`pip freeze > requirements.txt`
+
 ### QUBO model
 
 The basic QUBO model to implement is the following:
