@@ -2,6 +2,8 @@
 
 ### Setup
 
+You need python>=3.11 installed on your machine
+
 Create and start the virtual environment
 
 `python3 -m venv venv;`
@@ -25,7 +27,7 @@ The basic QUBO model to implement is the following:
 
 where every `x_i` represents a sensor node, it is 1 if and only if the sensor in that node has been activated.
 
-The basic constraint to implement is the following:
+The basic constraint to implement is the following:z
 
 ![image info](img/qubo_constraint.png)
 
