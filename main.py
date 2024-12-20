@@ -8,7 +8,7 @@ def main():
     graph = CustomGraph(
         n_columns=3,
         n_sensor_rows=2,
-        n_street_points_rows=4,
+        n_street_points_rows=3,
         max_sensors_radius=2,
     )
 
@@ -22,7 +22,7 @@ def main():
     print(f"Formulation matrix:\n{qubo.get_matrix_dict()}")
 
     solution = anneal_qubo(qubo.get_matrix_dict(), num_anneals=1000)
-
+    print(solution.best.value)
     active_sensors = []
     for i in solution.best.state.keys():
         if solution.best.state[i] == 1 and i < n_sensors:

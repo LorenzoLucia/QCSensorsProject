@@ -5,7 +5,7 @@ from models.customgraph import CustomGraph
 from qiskit_optimization import QuadraticProgram
 from qiskit_optimization.translators import to_ising
 from qiskit_algorithms import VQE
-from qiskit_algorithms.optimizers import COBYLA
+from qiskit_algorithms.optimizers import COBYLA, POWELL
 from qiskit.primitives import Estimator
 from qiskit.circuit.library import RealAmplitudes
 
@@ -36,7 +36,7 @@ def entanglement_options_test():
     # print('Hamiltoniana:', operator)
     # print('Offset:', offset)
 
-    optimizer = COBYLA(maxiter=100)
+    optimizer = POWELL(maxiter=100)
     fout.write("entanglement,1,2,3")
     ## linear entanglement
     fout.write("\nlinear")
