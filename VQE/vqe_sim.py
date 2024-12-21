@@ -5,16 +5,84 @@ from models.customgraph import CustomGraph
 from qiskit_optimization import QuadraticProgram
 from qiskit_optimization.translators import to_ising
 from qiskit_algorithms import VQE
-from qiskit_algorithms.optimizers import COBYLA, POWELL, ADAM, AQGD, GradientDescent, QNSPSA
+from qiskit_algorithms.optimizers import POWELL
 from qiskit.primitives import Estimator
-from qiskit.circuit.library import RealAmplitudes
+from qiskit.circuit.library import RealAmplitudes, efficient_su2
 from qiskit.providers.basic_provider import BasicProvider
-from qiskit.quantum_info import Statevector
 
 from time import time
+import pandas as pd
+
+SOLUTIONS = [(4,), (1,)]
+ITERATIONS = 100
+
+def solutions_iterations(operator, ansatz, n_sensors, maxiter):
+    optimizer = POWELL(maxiter=maxiter)
+    backend = BasicProvider().get_backend('basic_simulator')
+    vqe = VQE(ansatz=ansatz, optimizer=optimizer, estimator=Estimator())
+    solutions = {}
+    avg_time = 0
+    for _ in range(ITERATIONS):
+        start = time()
+        result = vqe.compute_minimum_eigenvalue(operator)
+        
+        qc = ansatz.assign_parameters(result.optimal_parameters).decompose()
+        
+        qc.measure_all()
+
+        # transpiled_qc = transpile(qc, backend)
+        # qobj = assemble(transpiled_qc)
+        result = backend.run(qc).result()
+
+        counts = result.get_counts()
+        sensor_counts  = {}
+        for k,v in counts.items():
+            if k[len(k)-n_sensors:] not in sensor_counts.keys():
+                sensor_counts[k[len(k)-n_sensors:]] = v
+            else:
+                sensor_counts[k[len(k)-n_sensors:]] += v
+        # print(sensor_counts)
+
+        max_value = max(sensor_counts.values())
+        for k in sensor_counts.keys():
+            if sensor_counts[k] == max_value:
+                max_key = k
+                break
+        # print('Risultati delle misurazioni:', max_key, max_value)
+
+        active_sensors = []
+        for i in range(n_sensors):
+            if max_key[-1-i] == '1':
+                active_sensors.append(i)
+        # print(active_sensors)
+
+        active_sensors = tuple(active_sensors)
+        if active_sensors not in solutions.keys():
+            solutions[active_sensors] = 0
+        solutions[active_sensors] += 1
+
+        end = time()
+        avg_time += (end-start)/ITERATIONS
+        # print(f"Iteration {j} finished in {end-start}s")
+
+    # outfile = open("result_powell.out", "w")
+
+    max_value = max(solutions.values())
+    for k in solutions.keys():
+        if solutions[k] == max_value:
+            max_key = k
+        # outfile.write(f"{k}: {solutions[k]}\n")
+    accuracy = 0
+    for s in SOLUTIONS:
+        if s in solutions.keys():
+            accuracy += float(solutions[s]/ITERATIONS)
+
+    print('Risultati delle misurazioni:', max_key, max_value)
+
+    return accuracy, avg_time
 
 
-def main(entanglement='sca', reps=1, maxiter=100):
+def main(df, ansatz_type='RealAmplitudes', entanglement='sca', reps=1, maxiter=1000):
     graph = CustomGraph(
         n_columns=3,
         n_sensor_rows=2,
@@ -34,75 +102,27 @@ def main(entanglement='sca', reps=1, maxiter=100):
 
     operator, offset = to_ising(qp)
 
-    # optimizer = COBYLA(maxiter=maxiter)
-    optimizer = POWELL(maxiter=maxiter)
-    backend = BasicProvider().get_backend('basic_simulator')
+    if ansatz_type=='RealAmplitudes':
+        ansatz = RealAmplitudes(num_qubits=len(qubo.matrix), entanglement=entanglement, reps=reps)
+    elif ansatz_type == 'SU2':
+        ansatz = efficient_su2(len(qubo.matrix), su2_gates=['rx', 'y'], entanglement=entanglement, reps=reps)
 
-    ansatz = RealAmplitudes(num_qubits=len(qubo.matrix), entanglement=entanglement, reps=reps)
-
-    vqe = VQE(ansatz=ansatz, optimizer=optimizer, estimator=Estimator())
-    solutions = {}
-    for j in range(100):
-        start = time()
-        result = vqe.compute_minimum_eigenvalue(operator)
-        print(result.eigenvalue)
-        
-        # backend = Aer.get_backend('qasm_simulator')
-        
-        qc = ansatz.assign_parameters(result.optimal_parameters).decompose()
-        
-        qc.measure_all()
-
-        # transpiled_qc = transpile(qc, backend)
-        # qobj = assemble(transpiled_qc)
-        result = backend.run(qc).result()
-
-        counts = result.get_counts()
-        sensor_counts  = {}
-        for k,v in counts.items():
-            if k[len(k)-n_sensors:] not in sensor_counts.keys():
-                sensor_counts[k[len(k)-n_sensors:]] = v
-            else:
-                sensor_counts[k[len(k)-n_sensors:]] += v
-        print(sensor_counts)
-
-        max_value = max(sensor_counts.values())
-        for k in sensor_counts.keys():
-            if sensor_counts[k] == max_value:
-                max_key = k
-                break
-        print('Risultati delle misurazioni:', max_key, max_value)
-
-        active_sensors = []
-        for i in range(n_sensors):
-            if max_key[-1-i] == '1':
-                active_sensors.append(i)
-        print(active_sensors)
-
-        active_sensors = tuple(active_sensors)
-        if active_sensors not in solutions.keys():
-            solutions[active_sensors] = 0
-        solutions[active_sensors] += 1
-
-        end = time()
-
-        print(f"Iteration {j} finished in {end-start}s")
-
-    outfile = open("result_powell.out", "w")
-
-    max_value = max(solutions.values())
-    for k in solutions.keys():
-        if solutions[k] == max_value:
-            max_key = k
-        outfile.write(f"{k}: {solutions[k]}")
-        
-    print('Risultati delle misurazioni:', max_key, max_value)
-
-    outfile.close()
+    print(f"Starting iterations for ", ansatz_type, entanglement, reps)
+    s = time()
+    accuracy, avg_time = solutions_iterations(operator, ansatz, n_sensors, maxiter)
+    e = time()
+    print(accuracy, avg_time)
+    print(f"Completed in {e-s}s")
     # graph.add_active_sensors(active_sensors)
-
+    df.loc[len(df)] = [ansatz_type, entanglement, reps, accuracy, avg_time]
+    # print(df)
     # graph.plot()
 
 
 if __name__ == '__main__':
-    main(entanglement='full', reps=1, maxiter=100)
+    df = pd.DataFrame({'ansatz':[], 'entanglement':[], 'reps':[], 'accuracy':[], 'avg_time':[]})
+    for ansatz in ['SU2', 'RealAmplitudes']:
+        for entanglement in ['full', 'linear', 'reverse_linear', 'sca', 'circular']:
+            for reps in range(1,4):
+                main(df, ansatz_type=ansatz, entanglement=entanglement, reps=reps, maxiter=1000)
+    df.to_csv("performances_comparison.csv")
