@@ -82,7 +82,7 @@ def solutions_iterations(operator, ansatz, n_sensors, maxiter):
     return accuracy, avg_time
 
 
-def main(df, ansatz_type='RealAmplitudes', entanglement='sca', reps=1, maxiter=1000):
+def main(ansatz_type='RealAmplitudes', entanglement='sca', reps=1, maxiter=1000):
     graph = CustomGraph(
         n_columns=3,
         n_sensor_rows=2,
@@ -114,15 +114,20 @@ def main(df, ansatz_type='RealAmplitudes', entanglement='sca', reps=1, maxiter=1
     print(accuracy, avg_time)
     print(f"Completed in {e-s}s")
     # graph.add_active_sensors(active_sensors)
-    df.loc[len(df)] = [ansatz_type, entanglement, reps, accuracy, avg_time]
+    # df.loc[len(df)] = [ansatz_type, entanglement, reps, accuracy, avg_time]
+    outfile = open("results_rep3.csv", "a")
+    outfile.write(f"{ansatz_type}, {entanglement}, {reps}, {accuracy}, {avg_time}\n")
+    outfile.close()
     # print(df)
     # graph.plot()
 
 
 if __name__ == '__main__':
-    df = pd.DataFrame({'ansatz':[], 'entanglement':[], 'reps':[], 'accuracy':[], 'avg_time':[]})
+    # df = pd.DataFrame({'ansatz':[], 'entanglement':[], 'reps':[], 'accuracy':[], 'avg_time':[]})
+    outfile = open("results_rep3.csv", "w")
+    outfile.write(f"ansatz,entanglement,reps,accuracy,avg_time\n")
+    outfile.close()
     for ansatz in ['SU2', 'RealAmplitudes']:
         for entanglement in ['full', 'linear', 'reverse_linear', 'sca', 'circular']:
-            for reps in range(1,4):
-                main(df, ansatz_type=ansatz, entanglement=entanglement, reps=reps, maxiter=1000)
-    df.to_csv("performances_comparison.csv")
+                main(ansatz_type=ansatz, entanglement=entanglement, reps=3, maxiter=200)
+    # df.to_csv("performances_comparison.csv")
