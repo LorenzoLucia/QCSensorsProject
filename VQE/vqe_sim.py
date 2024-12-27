@@ -11,7 +11,8 @@ from qiskit.circuit.library import RealAmplitudes, efficient_su2
 from qiskit.providers.basic_provider import BasicProvider
 
 from time import time
-import pandas as pd
+import concurrent.futures
+import numpy as np 
 
 SOLUTIONS = [(4,), (1,)]
 ITERATIONS = 100
@@ -22,6 +23,7 @@ def solutions_iterations(operator, ansatz, n_sensors, maxiter):
     vqe = VQE(ansatz=ansatz, optimizer=optimizer, estimator=Estimator())
     solutions = {}
     avg_time = 0
+    std_time = []
     for _ in range(ITERATIONS):
         start = time()
         result = vqe.compute_minimum_eigenvalue(operator)
@@ -63,6 +65,7 @@ def solutions_iterations(operator, ansatz, n_sensors, maxiter):
 
         end = time()
         avg_time += (end-start)/ITERATIONS
+        std_time.append(end-start)
         # print(f"Iteration {j} finished in {end-start}s")
 
     # outfile = open("result_powell.out", "w")
@@ -79,10 +82,10 @@ def solutions_iterations(operator, ansatz, n_sensors, maxiter):
 
     print('Risultati delle misurazioni:', max_key, max_value)
 
-    return accuracy, avg_time
+    return accuracy, avg_time, np.std(std_time)
 
 
-def main(ansatz_type='RealAmplitudes', entanglement='sca', reps=1, maxiter=1000):
+def run_simulation(ansatz_type='RealAmplitudes', entanglement='sca', reps=1, maxiter=1000):
     graph = CustomGraph(
         n_columns=3,
         n_sensor_rows=2,
@@ -109,14 +112,14 @@ def main(ansatz_type='RealAmplitudes', entanglement='sca', reps=1, maxiter=1000)
 
     print(f"Starting iterations for ", ansatz_type, entanglement, reps)
     s = time()
-    accuracy, avg_time = solutions_iterations(operator, ansatz, n_sensors, maxiter)
+    accuracy, avg_time, std_dev = solutions_iterations(operator, ansatz, n_sensors, maxiter)
     e = time()
     print(accuracy, avg_time)
     print(f"Completed in {e-s}s")
     # graph.add_active_sensors(active_sensors)
     # df.loc[len(df)] = [ansatz_type, entanglement, reps, accuracy, avg_time]
-    outfile = open("results_rep3.csv", "a")
-    outfile.write(f"{ansatz_type}, {entanglement}, {reps}, {accuracy}, {avg_time}\n")
+    outfile = open("results_rep_raw.csv", "a")
+    outfile.write(f"{ansatz_type},{entanglement},{reps},{accuracy},{avg_time},{std_dev}\n")
     outfile.close()
     # print(df)
     # graph.plot()
@@ -124,10 +127,14 @@ def main(ansatz_type='RealAmplitudes', entanglement='sca', reps=1, maxiter=1000)
 
 if __name__ == '__main__':
     # df = pd.DataFrame({'ansatz':[], 'entanglement':[], 'reps':[], 'accuracy':[], 'avg_time':[]})
-    outfile = open("results_rep3.csv", "w")
-    outfile.write(f"ansatz,entanglement,reps,accuracy,avg_time\n")
+    outfile = open("results_rep_raw.csv", "w")
+    outfile.write(f"ansatz,entanglement,reps,accuracy,avg_time,std_dev\n")
     outfile.close()
-    for ansatz in ['SU2', 'RealAmplitudes']:
-        for entanglement in ['full', 'linear', 'reverse_linear', 'sca', 'circular']:
-                main(ansatz_type=ansatz, entanglement=entanglement, reps=3, maxiter=200)
+    with concurrent.futures.ProcessPoolExecutor(max_workers=4) as executor:
+        futures = []
+        for ansatz in ['SU2', 'RealAmplitudes']:
+            for entanglement in ['full', 'linear', 'reverse_linear', 'sca', 'circular']:
+                for reps in range(1,4):
+                    futures.append(executor.submit(run_simulation, ansatz_type=ansatz, entanglement=entanglement, reps=reps, maxiter=200))
+        concurrent.futures.wait(futures)
     # df.to_csv("performances_comparison.csv")
