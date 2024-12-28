@@ -15,19 +15,19 @@ import concurrent.futures
 import numpy as np 
 
 SOLUTIONS = [(4,), (1,)]
-ITERATIONS = 100
+ITERATIONS = 50
 
 def solutions_iterations(operator, ansatz, n_sensors, maxiter):
     optimizer = POWELL(maxiter=maxiter)
     backend = BasicProvider().get_backend('basic_simulator')
     vqe = VQE(ansatz=ansatz, optimizer=optimizer, estimator=Estimator())
     solutions = {}
-    avg_time = 0
-    std_time = []
+    times = []
+    eigs = []
     for _ in range(ITERATIONS):
         start = time()
         result = vqe.compute_minimum_eigenvalue(operator)
-        
+        eigs.append(result.eigenvalue)
         qc = ansatz.assign_parameters(result.optimal_parameters).decompose()
         
         qc.measure_all()
@@ -64,8 +64,8 @@ def solutions_iterations(operator, ansatz, n_sensors, maxiter):
         solutions[active_sensors] += 1
 
         end = time()
-        avg_time += (end-start)/ITERATIONS
-        std_time.append(end-start)
+        # avg_time += (end-start)/ITERATIONS
+        times.append(end-start)
         # print(f"Iteration {j} finished in {end-start}s")
 
     # outfile = open("result_powell.out", "w")
@@ -82,7 +82,7 @@ def solutions_iterations(operator, ansatz, n_sensors, maxiter):
 
     print('Risultati delle misurazioni:', max_key, max_value)
 
-    return accuracy, avg_time, np.std(std_time)
+    return accuracy, np.mean(eigs), np.std(eigs), np.mean(times), np.std(times)
 
 
 def run_simulation(ansatz_type='RealAmplitudes', entanglement='sca', reps=1, maxiter=1000):
@@ -107,19 +107,23 @@ def run_simulation(ansatz_type='RealAmplitudes', entanglement='sca', reps=1, max
 
     if ansatz_type=='RealAmplitudes':
         ansatz = RealAmplitudes(num_qubits=len(qubo.matrix), entanglement=entanglement, reps=reps)
-    elif ansatz_type == 'SU2':
+    elif ansatz_type == 'SU2_cx':
         ansatz = efficient_su2(len(qubo.matrix), su2_gates=['rx', 'y'], entanglement=entanglement, reps=reps)
+    elif ansatz_type == 'SU2_rz':
+        ansatz = efficient_su2(len(qubo.matrix), entanglement=entanglement, reps=reps)
+    elif ansatz_type == 'SU2_h':
+        ansatz = efficient_su2(len(qubo.matrix), su2_gates=['h', 'ry'], entanglement=entanglement)
 
     print(f"Starting iterations for ", ansatz_type, entanglement, reps)
     s = time()
-    accuracy, avg_time, std_dev = solutions_iterations(operator, ansatz, n_sensors, maxiter)
+    accuracy, avg_eig, eig_sd, avg_time, time_sd = solutions_iterations(operator, ansatz, n_sensors, maxiter)
     e = time()
     print(accuracy, avg_time)
     print(f"Completed in {e-s}s")
     # graph.add_active_sensors(active_sensors)
     # df.loc[len(df)] = [ansatz_type, entanglement, reps, accuracy, avg_time]
-    outfile = open("results_rep_raw.csv", "a")
-    outfile.write(f"{ansatz_type},{entanglement},{reps},{accuracy},{avg_time},{std_dev}\n")
+    outfile = open("results_rep.csv", "a")
+    outfile.write(f"{ansatz_type},{entanglement},{reps},{accuracy},{avg_eig},{eig_sd},{avg_time},{time_sd}\n")
     outfile.close()
     # print(df)
     # graph.plot()
@@ -127,14 +131,16 @@ def run_simulation(ansatz_type='RealAmplitudes', entanglement='sca', reps=1, max
 
 if __name__ == '__main__':
     # df = pd.DataFrame({'ansatz':[], 'entanglement':[], 'reps':[], 'accuracy':[], 'avg_time':[]})
-    outfile = open("results_rep_raw.csv", "w")
-    outfile.write(f"ansatz,entanglement,reps,accuracy,avg_time,std_dev\n")
+    outfile = open("results_rep.csv", "w")
+    outfile.write(f"ansatz,entanglement,reps,accuracy,avg_eig,eig_sd,avg_time,time_sd\n")
     outfile.close()
     with concurrent.futures.ProcessPoolExecutor(max_workers=4) as executor:
         futures = []
-        for ansatz in ['SU2', 'RealAmplitudes']:
+        for ansatz in ['SU2_h', 'SU2_rz', 'SU2_cx', 'RealAmplitudes']:
             for entanglement in ['full', 'linear', 'reverse_linear', 'sca', 'circular']:
                 for reps in range(1,4):
+                    if ansatz == 'SU2_h' and entanglement == 'linear' and reps !=3:
+                        continue
                     futures.append(executor.submit(run_simulation, ansatz_type=ansatz, entanglement=entanglement, reps=reps, maxiter=200))
         concurrent.futures.wait(futures)
     # df.to_csv("performances_comparison.csv")
