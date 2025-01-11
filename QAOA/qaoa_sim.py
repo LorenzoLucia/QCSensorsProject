@@ -18,7 +18,7 @@ def main():
 
 
     n_sensors, n_street_points, edges = graph.get_data_for_qubo()
-
+    qubo = Qubo(n_sensors=n_sensors, n_street_points=n_street_points, edges=edges)
     print(f"Number of sensors: {n_sensors}")
     print(f"Number of street points: {n_street_points}")
     
@@ -33,7 +33,7 @@ def main():
         writer.writerow(['n_sensors','n_street_points','p', 'params', 'cost', 'exec_time', 'final_config', 'accuracy'])
         
         for p in range(4, 6):
-            qaoa = Qaoa(n_sensors, n_street_points, edges, p=p)
+            qaoa = Qaoa(qubo=qubo, p=p)
             accuracy, avg_time = qaoa.run_iterations(ITERATIONS, SOLUTIONS)
             params, avg_cut, exec_time = qaoa.optimize(maxiter=100)
             
