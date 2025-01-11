@@ -4,9 +4,10 @@ from qiskit import QuantumCircuit, transpile
 from qiskit.circuit import Parameter
 from qiskit_aer import Aer
 from scipy.optimize import minimize
+from qubo.qubo import Qubo
 
 class Qaoa:
-    def __init__(self, n_sensors, n_street_points, edges, p=1, backend=None):
+    def __init__(self, qubo:Qubo, p=1, backend=None):
         """
         Initialize the QAOA class.
 
@@ -16,11 +17,12 @@ class Qaoa:
         :param p: Number of QAOA layers.
         :param backend: Backend to execute the quantum circuit.
         """
-        self.n_sensors = n_sensors
-        self.n_street_points = n_street_points
-        self.edges = edges
+        self.n_sensors = qubo.n_sensors
+        self.n_street_points = qubo.n_street_points
+        self.edges = qubo.edges
         self.p = p
-        self.num_qubits = n_sensors + n_street_points
+        self.num_qubits = qubo.n_sensors + qubo.n_street_points
+        self.matrix = qubo.matrix
         self.backend = backend if backend else Aer.get_backend('qasm_simulator')
         self.gamma_params = [Parameter(f'γ_{i}') for i in range(p)]
         self.beta_params = [Parameter(f'β_{i}') for i in range(p)]
