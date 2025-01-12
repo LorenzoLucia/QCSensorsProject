@@ -32,7 +32,7 @@ def main():
         writer = csv.writer(file)
         writer.writerow(['n_sensors','n_street_points','p', 'params', 'cost', 'exec_time', 'final_config', 'accuracy'])
         
-        for p in range(4, 6):
+        for p in range(1, 6):
             qaoa = Qaoa(qubo=qubo, p=p)
             accuracy, avg_time = qaoa.run_iterations(ITERATIONS, SOLUTIONS)
             params, avg_cut, exec_time = qaoa.optimize(maxiter=100)
