@@ -1,0 +1,911 @@
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.1173250675201416
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	1.4327917098999023
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	0.9792158603668213
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.5807390213012695
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	2.9592208862304688
+6,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	2.7475640773773193
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.6457841396331787
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.828672170639038
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.5037848949432373
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.7791082859039307
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.6657860279083252
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	2.6699111461639404
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.874442100524902
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.7940449714660645
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.7200982570648193
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.4391582012176514
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.591935873031616
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.2246780395507812
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	2.500229835510254
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.593670129776001
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	4.514597177505493
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.764147996902466
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.303511142730713
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.491395950317383
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.278402805328369
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.8937208652496338
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.7231249809265137
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	4.4080188274383545
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	6.345850706100464
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.854083061218262
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.1998231410980225
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.232785940170288
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.6957602500915527
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.011345863342285
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.0937702655792236
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.173123836517334
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.232133150100708
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.4298267364501953
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.8351202011108398
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.230534791946411
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.5323028564453125
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	1.8728971481323242
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.725872755050659
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5026171207427979
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.011681795120239
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	5.8990771770477295
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.9936058521270752
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.0001440048217773
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.254719972610474
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	1.424748182296753
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.9044971466064453
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.861515998840332
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	3.2400550842285156
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	3.583266019821167
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.62333083152771
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	0.8819682598114014
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.465009927749634
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.2932658195495605
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	2.712193012237549
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	3.5024771690368652
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	1.980226755142212
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.215383052825928
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5521769523620605
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.6347830295562744
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.1327338218688965
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	1.419809103012085
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	2.339876174926758
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	2.727571964263916
+5,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	3.2714600563049316
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.765067100524902
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6637020111083984
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.2503018379211426
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.398258209228516
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	1.1889042854309082
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	1.872032880783081
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	2.9737370014190674
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	3.1346161365509033
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	4.458651781082153
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.354356050491333
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.278598070144653
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.707871913909912
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.4005751609802246
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	2.809480905532837
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	3.5059330463409424
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.520275831222534
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	6.639502048492432
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.3046128749847412
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.1363539695739746
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.1112308502197266
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	0.23110723495483398
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.5258302688598633
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.6330959796905518
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	4.141902923583984
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.683380842208862
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.1262409687042236
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.8831310272216797
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.474678993225098
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	1.5744359493255615
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	2.2803561687469482
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	3.039531946182251
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	4.855761766433716
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.7215020656585693
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.023836135864258
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.2423229217529297
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.499148607254028
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	1.4742450714111328
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	2.0006608963012695
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	3.12719988822937
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	3.729656934738159
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.966336965560913
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.9218571186065674
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.8443169593811035
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.843751907348633
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	1.26472806930542
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	3.1474549770355225
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	3.5623390674591064
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.166882038116455
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.53496789932251
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.2179851531982422
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.6735520362854004
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.7183637619018555
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.4500622749328613
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.6932528018951416
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.4957067966461182
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.29599928855896
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	7.707094192504883
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5306379795074463
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.817690134048462
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.248615026473999
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.627504825592041
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	2.104248285293579
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.8968586921691895
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	3.7707080841064453
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.6300759315490723
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.142076015472412
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.9889612197875977
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.5129921436309814
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	1.6302132606506348
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	1.4752211570739746
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.195981025695801
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	3.208028793334961
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	5.911924123764038
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6604549884796143
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.3385438919067383
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.653801918029785
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.2273941040039062
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.739285945892334
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	3.188258171081543
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.6551082134246826
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.148425817489624
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5517730712890625
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.6863598823547363
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.551034927368164
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.2899339199066162
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.3880550861358643
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.7223851680755615
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.3259363174438477
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	4.674776792526245
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.8114440441131592
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.690520763397217
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.559341907501221
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.030093193054199
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	0.5780410766601562
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.142470836639404
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.106757879257202
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.6653239727020264
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.2715280055999756
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.3952829837799072
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.313847064971924
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.002405881881714
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	3.56485915184021
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	1.7554187774658203
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	3.7782161235809326
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.8430588245391846
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.096808910369873
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.860380172729492
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.731501817703247
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	1.1147027015686035
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	1.4211242198944092
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	3.6349802017211914
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.9236400127410889
+6,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	9.092936754226685
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.4076988697052002
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.8913347721099854
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.742111921310425
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.3760268688201904
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.695997953414917
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.774503231048584
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	3.112614870071411
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	4.929894924163818
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.842561960220337
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.781243085861206
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.0161490440368652
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.1785390377044678
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	2.4633290767669678
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	5.402109146118164
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.356444835662842
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	5.206178903579712
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.707273006439209
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.20543098449707
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.136224031448364
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.2496869564056396
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	3.4789581298828125
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.2549729347229004
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	4.232170104980469
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	5.035451173782349
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5399587154388428
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.078979015350342
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.618144989013672
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	2.5188539028167725
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.3031609058380127
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	3.517380952835083
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.6803572177886963
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	6.138520002365112
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.4337129592895508
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.2082250118255615
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.106445789337158
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.5478899478912354
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.154046058654785
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.2998700141906738
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	2.1073009967803955
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.821242094039917
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.2327301502227783
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.8939828872680664
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.5181140899658203
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	1.2826869487762451
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	1.2731268405914307
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	4.341170310974121
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	5.606856822967529
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.04973292350769
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.105139970779419
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.3738691806793213
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.098986864089966
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.9226460456848145
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	2.269318103790283
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	4.190051794052124
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	3.2918777465820312
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	8.782820224761963
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.4298999309539795
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.377784013748169
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.310405969619751
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	1.5908679962158203
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	3.8999459743499756
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	3.753784656524658
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.068435192108154
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.513192176818848
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.480902910232544
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.112799882888794
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.213289976119995
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.5490670204162598
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	4.20166015625
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.372779130935669
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	4.238988876342773
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	6.166173934936523
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.0562119483947754
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.7996299266815186
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.4761128425598145
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	1.823216199874878
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.3332109451293945
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	4.518600940704346
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	0.5829458236694336
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	8.542707204818726
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.8429667949676514
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.261348009109497
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.980640172958374
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.3885257244110107
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.6909081935882568
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	0.5230436325073242
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.540646076202393
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	8.378788948059082
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.2144923210144043
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.61529803276062
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.727558135986328
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	2.255300998687744
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.8993110656738281
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.955872058868408
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	3.8019652366638184
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.0050249099731445
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5111422538757324
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.606109857559204
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.4994449615478516
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.7542529106140137
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.8947980403900146
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	2.9976539611816406
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	6.862034797668457
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.067195892333984
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.2861599922180176
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.2540149688720703
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.22786808013916
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	0.9839479923248291
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	1.412848949432373
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	2.847407817840576
+5,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	3.3069419860839844
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.684448003768921
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.4901649951934814
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.8740260601043701
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.36251425743103
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.4009149074554443
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.366286039352417
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	3.1291298866271973
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.146050691604614
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.0271990299224854
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6249032020568848
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.977958917617798
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.8357200622558594
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	1.674259901046753
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	2.278446912765503
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.2770843505859375
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	5.340667963027954
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	5.331027984619141
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.329285144805908
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.0990569591522217
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.757652997970581
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.2039978504180908
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	2.8004050254821777
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	2.8110268115997314
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	4.563199996948242
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	5.239552021026611
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.2428181171417236
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.236319065093994
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.332753896713257
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	2.8462181091308594
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	3.006913185119629
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.928509950637817
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.0100390911102295
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	6.676175832748413
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.03462815284729
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.8074140548706055
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.266203880310059
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.8121070861816406
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	2.5490827560424805
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	1.5350370407104492
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.334775924682617
+6,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	9.936643123626709
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.113237142562866
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	3.059983730316162
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.8799259662628174
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	2.006998062133789
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	2.8025858402252197
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	2.9189703464508057
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	2.8266761302948
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.156136989593506
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6696739196777344
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.6196300983428955
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.47301983833313
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	1.7441048622131348
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.2828011512756348
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.115652799606323
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.188223123550415
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	4.447937965393066
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.843721866607666
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.582413911819458
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.506418943405151
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	1.6618173122406006
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	1.221566915512085
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	4.192050933837891
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	4.0767621994018555
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.838797092437744
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	0.9525949954986572
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.169382095336914
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.624737024307251
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.1818387508392334
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.2375988960266113
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.058861255645752
+5,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	2.7784178256988525
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.393608331680298
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6570649147033691
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.400115966796875
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.583569765090942
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	2.2213869094848633
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	1.4873130321502686
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	3.1299800872802734
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	5.116437911987305
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	3.9989800453186035
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.3063218593597412
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.332336187362671
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.8810529708862305
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	2.3158562183380127
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	4.016394853591919
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	2.432008981704712
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	5.253735303878784
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.531242847442627
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.9576761722564697
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.7935328483581543
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.575224161148071
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.1780059337615967
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.85273814201355
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.4401657581329346
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.393156051635742
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.658845901489258
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.2832670211791992
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.8924999237060547
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.859599828720093
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	2.2352499961853027
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.7283940315246582
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.4481492042541504
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.5038650035858154
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	9.582184076309204
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6817121505737305
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.2461421489715576
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.753637790679932
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	1.0728552341461182
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	1.2633399963378906
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	3.7436399459838867
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.189219951629639
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	8.743129253387451
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.54658579826355
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.0747482776641846
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.190370798110962
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	1.5460429191589355
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.4312570095062256
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	1.7851409912109375
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	5.099724054336548
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.962468862533569
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.1307787895202637
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.640566825866699
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.429847240447998
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.5336430072784424
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.4801111221313477
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	0.582111120223999
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	2.438673257827759
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	5.878833055496216
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6910130977630615
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.972923994064331
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.8444950580596924
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.8047771453857422
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	3.455087184906006
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	2.4964749813079834
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	5.7507007122039795
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	4.2939980030059814
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5447230339050293
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.21853494644165
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.078295946121216
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.4682831764221191
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	1.6674389839172363
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	1.365854024887085
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	3.812864065170288
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	5.105458974838257
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.7217111587524414
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.1112639904022217
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.0239551067352295
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.0787091255187988
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	2.9119348526000977
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	3.4462480545043945
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.592037916183472
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	5.911094903945923
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.0646181106567383
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.016948938369751
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.5539700984954834
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	0.727092981338501
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.6782290935516357
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	2.686098098754883
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.4703807830810547
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.8505120277404785
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.9032909870147705
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.441354990005493
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.0378081798553467
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	0.8438010215759277
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	1.4856977462768555
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	0.6590728759765625
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	5.6236348152160645
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.1724131107330322
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.2157716751098633
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.1077301502227783
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.500673770904541
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	1.910933017730713
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.047216176986694
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	3.109590768814087
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	1.8130748271942139
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	9.09595274925232
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.3450310230255127
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.1609511375427246
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.874469041824341
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	2.0923049449920654
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	4.297747850418091
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	2.5796117782592773
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.966919183731079
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	8.922031879425049
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.647429943084717
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.861438035964966
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.370729207992554
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.8816637992858887
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	2.5578560829162598
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	3.0724599361419678
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	5.605861186981201
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	6.304111957550049
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.384552001953125
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.3448359966278076
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.635579824447632
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.471174716949463
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.4305431842803955
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	3.3198206424713135
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	2.9301979541778564
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.520292043685913
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.2017998695373535
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.403463840484619
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.682474136352539
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	2.307833194732666
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.897726058959961
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.647218942642212
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	4.367642879486084
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	3.481438398361206
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.633056879043579
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.9665961265563965
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.231125116348267
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	1.9839909076690674
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	2.568310022354126
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.762101888656616
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5687170028686523
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.953706979751587
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.4711039066314697
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.673659086227417
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.9396069049835205
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	1.6269721984863281
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	2.281351089477539
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	2.6424367427825928
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.2710981369018555
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	8.552390813827515
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.235640048980713
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.022243022918701
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.313601016998291
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.4333839416503906
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.3419928550720215
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.998591184616089
+5,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	3.174478769302368
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	6.115314245223999
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.9504759311676025
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.3753011226654053
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.071632146835327
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	1.4585330486297607
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	1.7672979831695557
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	2.637877941131592
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	2.9296669960021973
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	2.5869579315185547
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.371427059173584
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.651181697845459
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.067697286605835
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6980175971984863
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.300420045852661
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.9034171104431152
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.152389049530029
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.064342737197876
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.8077189922332764
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.509948968887329
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.8366241455078125
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6650547981262207
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	2.294210195541382
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.5372250080108643
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	3.1858768463134766
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	8.703715801239014
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.7579803466796875
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.310778856277466
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.344547271728516
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	0.9115128517150879
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	1.8259682655334473
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.719122886657715
+5,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	3.386462926864624
+6,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	5.6352009773254395
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5017988681793213
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.2043521404266357
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.5490942001342773
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.9370779991149902
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	2.327623128890991
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	3.3159570693969727
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	6.113263845443726
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.36256217956543
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5844089984893799
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.0943799018859863
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.720292806625366
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.3995230197906494
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	0.9145181179046631
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	6.00972580909729
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.48916482925415
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	6.126178026199341
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5177810192108154
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.899334192276001
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.111279726028442
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.1828851699829102
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	1.876504898071289
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	2.5597429275512695
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	4.4303600788116455
+6,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	4.340134143829346
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.3505327701568604
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.9979541301727295
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.02231502532959
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	1.0638649463653564
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	1.363619089126587
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	3.056593894958496
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	0.8810880184173584
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	6.89934515953064
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.54616379737854
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.1313259601593018
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.850409984588623
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	3.3143398761749268
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.1054210662841797
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	5.532578945159912
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.724097967147827
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	5.733371257781982
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.1551408767700195
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.278191089630127
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.6443679332733154
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	1.6431007385253906
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.8575990200042725
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	3.9353432655334473
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	3.93582820892334
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	5.173125743865967
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.8758208751678467
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.7058939933776855
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.6693620681762695
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	0.8111109733581543
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.0780069828033447
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	3.2874670028686523
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.366663932800293
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.4414222240448
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.8568859100341797
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.573899030685425
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.77020788192749
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.1676981449127197
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	1.9676778316497803
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	2.3092010021209717
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	3.121419906616211
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	5.495033025741577
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.0789408683776855
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.3322250843048096
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.087950229644775
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	1.6383788585662842
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	3.144394874572754
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	3.2032041549682617
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	4.436469078063965
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	7.98393702507019
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.22448992729187
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	0.964040994644165
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.944920778274536
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	2.1647040843963623
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.9259519577026367
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.317417144775391
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.5376052856445312
+6,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	3.7515711784362793
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.437690019607544
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.311743974685669
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.325395822525024
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	3.0085160732269287
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	3.3292899131774902
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.7827279567718506
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.438035011291504
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	5.8829710483551025
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.378253698348999
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.7193567752838135
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.168668031692505
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	0.35901308059692383
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	3.7921040058135986
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	3.3078560829162598
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	4.251335859298706
+6,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	3.3442068099975586
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6194689273834229
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.454590082168579
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.92710018157959
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	2.324462890625
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.5381171703338623
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	2.6993279457092285
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	4.572014808654785
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.8596949577331543
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.299184799194336
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.4079370498657227
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.747817039489746
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	1.0923891067504883
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	2.4388349056243896
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	4.4757020473480225
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	4.128377199172974
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.292656898498535
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.695924997329712
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.6297831535339355
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.272763967514038
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	2.8485660552978516
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	1.951246976852417
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	3.1562857627868652
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.410559892654419
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.7446448802948
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.689525842666626
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.803354024887085
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.767890930175781
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.350943088531494
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	1.6864840984344482
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.7513771057128906
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.7943029403686523
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	4.669663906097412
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.010835886001587
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.6639678478240967
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.203189849853516
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.2958970069885254
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	4.283205032348633
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	5.1431968212127686
+5,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	4.7606306076049805
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	7.928972959518433
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.0069591999053955
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.302485227584839
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.037760019302368
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	0.2962212562561035
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	3.9590063095092773
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	3.284080982208252
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	0.7644960880279541
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	5.739344120025635
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.4416508674621582
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.826296091079712
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.2536461353302
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.6857857704162598
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	3.196514844894409
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	2.2723309993743896
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.398561954498291
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	6.54338002204895
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.467970848083496
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.382528066635132
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.3849902153015137
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	2.7721941471099854
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.6216907501220703
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	3.520159959793091
+5,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	4.247326135635376
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	8.682596206665039
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.78645920753479
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6969358921051025
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.0883090496063232
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	1.3990399837493896
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	2.109044075012207
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	2.00732421875
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	3.88615083694458
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	6.794492959976196
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.3704588413238525
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.301382303237915
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.250310182571411
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	1.2887227535247803
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	2.0598649978637695
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	4.798804044723511
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	12.0,	4.269636154174805
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	11.851800918579102
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.4131708145141602
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.8670408725738525
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.416705846786499
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	3.046215772628784
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	3.895810842514038
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	4.614045143127441
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	3.8359360694885254
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	4.99227499961853
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.40254282951355
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.532033920288086
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.0247790813446045
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	26.0,	1.3740217685699463
+3,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	3.1064109802246094
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	1.9574849605560303
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	3.121973991394043
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.9518892765045166
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.4918079376220703
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.274690866470337
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.428128957748413
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.8826560974121094
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	3.5806989669799805
+4,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	2.4610509872436523
+5,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	6.242311954498291
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.026134014129639
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.8908581733703613
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.0260860919952393
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.813053846359253
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	0.7681639194488525
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	2.8025200366973877
+4,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.602915048599243
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	7.591127872467041
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	6.128004789352417
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6067099571228027
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.411107063293457
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.194231033325195
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	1.631208896636963
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	0.0,	3.3161377906799316
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	4.7952539920806885
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	2.6360397338867188
+6,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	9.237377166748047
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.2196190357208252
+8,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.6465060710906982
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.3314549922943115
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	1.4515202045440674
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	2.0,	1.5144150257110596
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.410167694091797
+5,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	12.0,	5.104935169219971
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	10.066981792449951
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.5970458984375
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.948941946029663
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	7.026477098464966
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	2.0,	2.370266914367676
+3,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	2.1702709197998047
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.421675205230713
+5,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.283179998397827
+6,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	3.638841152191162
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.6733307838439941
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.407792091369629
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	4.789380073547363
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	0.8054080009460449
+3,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.429615020751953
+4,	{'x0': np.float64(1.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-2.0,	4.53108286857605
+5,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(1.0)},	-1.0,	7.137792110443115
+6,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.824735879898071
+7,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.628566026687622
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.2405450344085693
+9,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.2952659130096436
+encoding qubits,	 solution,	 eigenvalue,	 time
+2,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(0.0), 'x3': np.float64(0.0)},	5.0,	2.0383081436157227
+3,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	3.0085840225219727
+4,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(0.0)},	-1.0,	3.036902904510498
+5,	{'x0': np.float64(0.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	4.0,	4.919126987457275
+6,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	5.8945910930633545
+7,	{'x0': np.float64(1.0), 'x1': np.float64(0.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	1.3810880184173584
+8,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	2.5936968326568604
+9,	{'x0': np.float64(0.0), 'x1': np.float64(1.0), 'x2': np.float64(1.0), 'x3': np.float64(1.0)},	-7.0,	3.627606153488159
