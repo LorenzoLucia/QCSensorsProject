@@ -62,13 +62,14 @@ def main(verbose = False):
 
             # create plots of accuracy and time vs #iterations
             axs_iter_acc.plot(number_of_iterations.astype('str'), accuracies_iter, '-o', label=f'{i} var')
-            axs_iter_acc.set_title(f'Accuracy vs #Iterations, #Encoding Qubits: {i}', fontsize = 10)
+            axs_iter_acc.set_title(f'Accuracy vs #Iterations, #Encoding Qubits = #var', fontsize = 10)
             axs_iter_acc.set(xlabel='#Iterations', ylabel='Accuracy')
             axs_iter_acc.legend(title='#Variables', loc='upper left')
 
             axs_iter_time.plot(number_of_iterations.astype('str'), times_iter, '-o', label=f'{i} var')
-            axs_iter_time.set_title(f'Execution Time (s) vs #Iterations, #Encoding Qubits: {i}', fontsize = 10)
+            axs_iter_time.set_title(f'Execution Time (s) vs #Iterations, #Encoding Qubits = #var', fontsize = 10)
             axs_iter_time.set(xlabel='#Iterations', ylabel='Time (s)')
+            axs_iter_time.set_yscale('log')
             axs_iter_time.legend(title='#Variables', loc='upper left')
 
             # fig_iter.savefig(f"{plot_path}GrOp_{i}var_iter.png", dpi=300)
@@ -119,6 +120,7 @@ def main(verbose = False):
             axs_enc_time.plot(encoding_qubits.astype('str'), times_enc, '-o', label=f'{i} var')
             axs_enc_time.set_title(f'Time (s) vs #Encoding qubits, #Iterations: 9', fontsize = 10)
             axs_enc_time.set(xlabel='#Encoding qubits', ylabel='Time (s)')
+            axs_enc_time.set_yscale('log')
             axs_enc_time.legend(title='#Variables', loc='upper left')
 
             # fig_enc.savefig(f"{plot_path}GrOp_{i}var_enc.png", dpi=300)
