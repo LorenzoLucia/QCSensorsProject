@@ -54,10 +54,18 @@ class Qaoa:
         return qc
 
     def _apply_cost_hamiltonian(self, circuit, gamma):
-        for pauli, coeff in zip(self.qubo_hamiltonian.parameters, self.qubo_hamiltonian.coeffs):
-            circuit.append(pauli, list(pauli.indices))
-            circuit.rz(2 * gamma * coeff, pauli.indices[-1])
-            circuit.append(pauli, list(pauli.indices))
+        for term, coeff in zip(self.qubo_hamiltonian.primitive.paulis, self.qubo_hamiltonian.primitive.coeffs):
+            qubits = [i for i, p in enumerate(term.to_label()) if p != 'I']  # Trova i qubit coinvolti
+        
+            if len(qubits) == 1:  # Caso Z_i
+                circuit.rz(2 * gamma * coeff, qubits[0])
+        
+            elif len(qubits) == 2:  # Caso Z_i Z_j
+                q1, q2 = qubits
+                circuit.cx(q1, q2)
+                circuit.rz(2 * gamma * coeff, q2)
+                circuit.cx(q1, q2)
+  
 
     def _apply_mixer_hamiltonian(self, circuit, beta):
         for i in range(self.num_qubits):
