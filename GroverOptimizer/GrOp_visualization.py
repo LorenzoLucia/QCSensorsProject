@@ -19,6 +19,11 @@ def main(verbose = False):
         outfile.write('')
 
     # loop for every number of variables
+    fig_iter_acc, axs_iter_acc = plt.subplots()
+    fig_iter_time, axs_iter_time = plt.subplots()
+    fig_enc_acc, axs_enc_acc = plt.subplots()
+    fig_enc_time, axs_enc_time = plt.subplots()
+
     for i in VARIABLES:
         with open(f'simulations_results.txt', 'a') as outfile:
             outfile.write(f'Variables: {i}\n')
@@ -56,22 +61,18 @@ def main(verbose = False):
                 print(f'time: {times_iter}')
 
             # create plots of accuracy and time vs #iterations
-            fig_iter, axs = plt.subplots(2,1)
+            axs_iter_acc.plot(number_of_iterations.astype('str'), accuracies_iter, '-o', label=f'{i} var')
+            axs_iter_acc.set_title(f'Accuracy vs #Iterations, #Encoding Qubits = #var', fontsize = 10)
+            axs_iter_acc.set(xlabel='#Iterations', ylabel='Accuracy')
+            axs_iter_acc.legend(title='#Variables', loc='upper left')
 
-            axs[0].plot(number_of_iterations.astype('str'), accuracies_iter, 'o')
-            axs[0].set_title(f'Accuracy vs #Iterations, {i} Variables, #Encoding qubits {i}', fontsize = 10)
-            axs[0].set(xlabel='#Iterations', ylabel='Accuracy')
-            axs[0].label_outer()
+            axs_iter_time.plot(number_of_iterations.astype('str'), times_iter, '-o', label=f'{i} var')
+            axs_iter_time.set_title(f'Execution Time (s) vs #Iterations, #Encoding Qubits = #var', fontsize = 10)
+            axs_iter_time.set(xlabel='#Iterations', ylabel='Time (s)')
+            axs_iter_time.set_yscale('log')
+            axs_iter_time.legend(title='#Variables', loc='upper left')
 
-            axs[1].plot(number_of_iterations.astype('str'), times_iter, 'o')
-            axs[1].set_title(f'Execution Time (s) vs #Iterations, {i} Variables, #Encoding qubits {i}', fontsize = 10)
-            axs[1].set(xlabel='#Iterations', ylabel='Time (s)')
-            axs[1].label_outer()
-
-            # adjust height between subplots
-            fig_iter.subplots_adjust(hspace=0.35)
-            fig_iter.savefig(f"{plot_path}GrOp_{i}var_iter.png", dpi=300)
-            # fig_iter.show()
+            # fig_iter.savefig(f"{plot_path}GrOp_{i}var_iter.png", dpi=300)
         except Exception as e:
             print(f'Exception: {e}')
 
@@ -110,24 +111,26 @@ def main(verbose = False):
                 print(f'time: {times_enc}')
 
             # create plots of accuracy and time vs #encoding qubits
-            fig_enc, axs = plt.subplots(2,1)
 
-            axs[0].plot(encoding_qubits.astype('str'), accuracies_enc, 'o')
-            axs[0].set_title(f'Accuracy vs #Encoding qubits, {i} Variables, #Iterations 9', fontsize = 10)
-            axs[0].set(xlabel='#Encoding qubits', ylabel='Accuracy')
-            axs[0].label_outer()
+            axs_enc_acc.plot(encoding_qubits.astype('str'), accuracies_enc, '-o', label=f'{i} var')
+            axs_enc_acc.set_title(f'Accuracy vs #Encoding qubits, #Iterations: 9', fontsize = 10)
+            axs_enc_acc.set(xlabel='#Encoding qubits', ylabel='Accuracy')
+            axs_enc_acc.legend(title='#Variables', loc='upper left')
 
-            axs[1].plot(encoding_qubits.astype('str'), times_enc, 'o')
-            axs[1].set_title(f'Time (s) vs #Encoding qubits, {i} Variables, #Iterations 9', fontsize = 10)
-            axs[1].set(xlabel='#Encoding qubits', ylabel='Time (s)')
-            axs[1].label_outer()
+            axs_enc_time.plot(encoding_qubits.astype('str'), times_enc, '-o', label=f'{i} var')
+            axs_enc_time.set_title(f'Time (s) vs #Encoding qubits, #Iterations: 9', fontsize = 10)
+            axs_enc_time.set(xlabel='#Encoding qubits', ylabel='Time (s)')
+            axs_enc_time.set_yscale('log')
+            axs_enc_time.legend(title='#Variables', loc='upper left')
 
-            # adjust height between subplots
-            fig_enc.subplots_adjust(hspace=0.35)
-            fig_enc.savefig(f"{plot_path}GrOp_{i}var_enc.png", dpi=300)
-            # fig_enc.show()
+            # fig_enc.savefig(f"{plot_path}GrOp_{i}var_enc.png", dpi=300)
         except Exception as e:
             print(f'Exception: {e}')
+
+    fig_enc_acc.savefig(f"{plot_path}GrOp_acc_vs_enc.png", dpi=300)
+    fig_enc_time.savefig(f"{plot_path}GrOp_time_vs_enc.png", dpi=300)
+    fig_iter_acc.savefig(f"{plot_path}GrOp_acc_vs_iter.png", dpi=300)
+    fig_iter_time.savefig(f"{plot_path}GrOp_time_vs_iter.png", dpi=300)
 
     plt.figure()
     sns.heatmap(heatmap_data,
